@@ -1,0 +1,221 @@
+* {
+    margin : 0;
+    
+}
+
+body {
+    background: linear-gradient(to bottom, #333, #666666);
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  
+}
+
+section {
+    align-items: center;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    margin: 0;
+
+}
+
+.navbar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0;
+    flex-wrap: wrap;         /* TAŞMAYI ENGELLER */
+    justify-content: center; 
+  
+}
+
+.navbar li {
+    border: 1px solid #333; 
+    display: inline;
+    padding:15px;
+    margin: 0;
+  
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    
+
+
+}
+
+.navbar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.navbar li:hover {
+    background-color: #555;
+    color: white;
+}
+
+.firtsH1 {
+    text-align: center;
+    font-size: 2em;
+    color: #cbff9a;
+    margin: 20px;
+}
+
+#kıyasbtn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px ;
+    background-color: #333;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+} 
+
+#kıyasbtn:hover {
+    background-color: #555;
+    transform: scale(1.10);
+}
+
+#kıyasbtn:active {
+    background-color: #777;
+    transform: scale(0.95);
+}
+
+.table-header {
+    background-color: rgb(49, 62, 25);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.tableofCars {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-color: darkolivegreen;
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    width: 60%;
+    min-width: 300px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.carimage {
+    transition: all 0.3s ease;
+    min-width: 80px;
+    max-width: 100%;
+    box-sizing: border-box;
+}   
+
+td {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+th{
+    border-radius: 5px;
+   
+}
+
+#modelButton {
+    display: block;
+    width: 80px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #adce68;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#modelButton:hover {
+    background-color: #8fbf5a;
+    transform: scale(1.10);
+}
+
+#modelButton:active {
+    background-color: #6fae4c;
+    transform: scale(0.95);
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+#carImageId {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#footy {
+    background-color: #333;
+    color: rgb(106, 106, 106);
+    text-align: center;
+    max-width: 100%;
+    height: 400px;
+    padding: 25px;
+    margin-top: 40px;
+    position:relative;
+    bottom: 0;
+    
+}
+
+#footy #leftfooty {
+  width: 20%;
+  float: left;
+  padding: 15px;
+} 
+
+#footy #midfooty {
+  width: 40%;
+  float: left;
+  padding: 15px;
+}
+
+#footy #rightfooty {
+  width: 40%;
+  float: right;
+  padding: 15px;
+}
